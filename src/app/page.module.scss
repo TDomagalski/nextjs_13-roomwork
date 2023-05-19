@@ -1,6 +1,10 @@
-.container {
+.test {
   max-width: 100%;
   width: auto;
   margin: auto;
   text-align: center;
+
+  .test2 {
+    background-color: white;
+  }
 }
