@@ -10,12 +10,12 @@ export default function Navbar() {
           <span style={{ fontSize: '2rem' }}>RoomWork.pl</span>
         </Link>
 
-        {/* <nav>
+        <nav>
           <Link href="/">Home</Link>
           <Link href="/kwatery-pracownicze">Kwatery</Link>
           <Link href="/galeria">Galeria</Link>
           <Link href="/kontakt">Kontakt</Link>
-        </nav> */}
+        </nav>
       </div>
     </div>
   );
