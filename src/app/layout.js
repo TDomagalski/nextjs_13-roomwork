@@ -7,6 +7,7 @@ import './globals.scss';
 import Infobar from '../components/Infobar/page';
 import Navbar from '../components/Navbar/page';
 import Contactrow from '../components/Contactrow/page';
+import Footer from '../components/Footer/page';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -27,6 +28,7 @@ export default function RootLayout({ children }) {
         <main>
           {children}
           <Contactrow />
+          <Footer />
         </main>
       </body>
     </html>
