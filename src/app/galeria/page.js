@@ -7,11 +7,13 @@ export default function Galeria() {
     <main className={styles.main}>
       <div className={styles.page_gallery}>
         <h1>Galeria</h1>
+        <h4>Witamy w naszej galerii kwater pracowniczych!</h4>
         <p>
-          Poniżej prezentują się zdjęcia wszystkich kwater, wspólnych
-          pomieszczeń, dwóch kuchni, patio jak i również budynku z zewnątrz.
+          Przeglądając naszą bogatą kolekcję zdjęć, będziesz mógł zobaczyć, jak
+          komfortowe i przyjemne są nasze kwatery pracownicze. Oferujemy
+          różnorodne rozwiązania mieszkalne, które spełnią oczekiwania Twojego
+          Zespołu.
         </p>
-        <p>Miłego oglądania.</p>
         <div className={styles.img_container}>
           <h2>Gallery</h2>
           {/* <Gallery photos={galleryImgs} /> */}

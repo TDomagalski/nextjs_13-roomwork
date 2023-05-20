@@ -8,19 +8,15 @@ export default function KwateryPracownicze() {
     <main className={styles.main}>
       <h1>Kwatery pracownicze</h1>
       <p>
-        Posiadamy kwatery zlokalizowane na 1 piętrze, jak i na parterze.
-        Pomieszczenia na piętrze mogą pomieścić od 2 do 4 osób. Cztery z pięciu
-        pokoi posiada własną łazienkę. Lokatorzy mieszkający na piętrze mają do
-        dyspozycji wspólną kuchnię wyposażoną w niezbędne urządzenia, korytarz i
-        pomieszczenie gospodarcze.
+        Nasze kwatery pracownicze są w pełni wyposażone. Każda kwatera posiada
+        łazienkę, wygodne łóżka, poduszki, kołdry, pościele, szafki, stół i
+        krzesła, a także dostęp do internetu i w pełni wyposażonej,
+        ogólnodostępnej kuchni wraz z pralnią.
       </p>
+
       <p>
-        Wszystkie kwatery na parterze są jednakowe. Pokoje mogą pomieścić 4
-        osoby. Każdy z nich posiada własną łazienkę. Do dyspozycji lokatorów
-        mieszkających na parterze jest wspólny korytarz, ogólnodostępna kuchnia
-        na parterze wraz z niezbędnymi urządzeniami, pralnie i suszarnie. Z
-        korytarza jest bezpośrednie wyjście na patio, gdzie jest możliwość
-        grillowania, jak i odpoczynku na świeżym powietrzu.
+        Oferujemy atrakcyjne zniżki dla firm, które wynajmują kwatery
+        pracownicze na dłuższy okres czasu.
       </p>
 
       <div className={styles.offer_nav}>
