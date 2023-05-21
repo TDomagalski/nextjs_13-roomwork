@@ -9,9 +9,11 @@
     justify-content: center;
     align-items: center;
     margin: 10px 0;
+
     img {
       margin-right: 10px;
     }
+
     span {
       font-weight: 700;
     }
@@ -41,9 +43,10 @@
   background-color: $color-harbor-grenade;
   border-top: 1px solid $color-border-white;
   color: $color-font-white;
+  width: 100%;
 
   .container {
-    margin: 2rem auto;
+    padding: 4rem 2rem;
 
     .footer_company {
       display: flex;
@@ -71,9 +74,28 @@
         }
       }
 
+      .Contact-info,
+      .page_link-phoneEmail,
+      .footer_map {
+        flex-basis: 30%;
+      }
+
+      .Contact-info {
+        .info-company,
+        .info-nip,
+        .info-regon {
+          font-size: 1.2rem;
+        }
+      }
+
+      .page_link-phoneEmail {
+        font-size: 1.5rem;
+      }
+
       .footer_map {
         flex-basis: 50%;
         margin: auto;
+
         a {
           text-decoration: none;
           color: $color-font-white;
@@ -91,6 +113,7 @@
 
           span {
             font-weight: 700;
+
             &.subtitle {
               font-size: 0.6rem;
               font-weight: 400;
