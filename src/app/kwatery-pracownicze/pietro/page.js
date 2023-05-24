@@ -35,7 +35,7 @@ export default function KwateryPietro() {
           <div className={styles.room_version}>
             <Link href="/kwatery-pracownicze/pietro/kwatera-1">
               <Image
-                src="/rooms-icons/enter_room.svg"
+                src="/enter_room.svg"
                 alt="Wejdź do pokoju"
                 width={35}
                 height={35}
@@ -46,7 +46,7 @@ export default function KwateryPietro() {
             </Link>
             <Link href="/kwatery-pracownicze/pietro/kwatera-2">
               <Image
-                src="/rooms-icons/enter_room.svg"
+                src="/enter_room.svg"
                 alt="Wejdź do pokoju"
                 width={35}
                 height={35}
@@ -57,7 +57,7 @@ export default function KwateryPietro() {
             </Link>
             <Link href="/kwatery-pracownicze/pietro/kwatera-3">
               <Image
-                src="/rooms-icons/enter_room.svg"
+                src="/enter_room.svg"
                 alt="Wejdź do pokoju"
                 width={35}
                 height={35}
@@ -68,7 +68,7 @@ export default function KwateryPietro() {
             </Link>
             <Link href="/kwatery-pracownicze/pietro/kwatera-4">
               <Image
-                src="/rooms-icons/enter_room.svg"
+                src="/enter_room.svg"
                 alt="Wejdź do pokoju"
                 width={35}
                 height={35}
@@ -79,7 +79,7 @@ export default function KwateryPietro() {
             </Link>
             <Link href="/kwatery-pracownicze/pietro/kwatera-5">
               <Image
-                src="/rooms-icons/enter_room.svg"
+                src="/enter_room.svg"
                 alt="Wejdź do pokoju"
                 width={35}
                 height={35}

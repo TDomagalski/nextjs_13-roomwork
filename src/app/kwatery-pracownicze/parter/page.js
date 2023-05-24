@@ -35,7 +35,7 @@ export default function KwateryParter() {
           <div className={styles.room_version}>
             <Link href="/kwatery-pracownicze/parter/kwatera-1">
               <Image
-                src="/rooms-icons/enter_room.svg"
+                src="/enter_room.svg"
                 alt="Arrow Down"
                 width={35}
                 height={35}
@@ -46,7 +46,7 @@ export default function KwateryParter() {
             </Link>
             <Link href="/kwatery-pracownicze/parter/kwatera-2">
               <Image
-                src="/rooms-icons/enter_room.svg"
+                src="/enter_room.svg"
                 alt="Arrow Down"
                 width={35}
                 height={35}
@@ -57,7 +57,7 @@ export default function KwateryParter() {
             </Link>
             <Link href="/kwatery-pracownicze/parter/kwatera-3">
               <Image
-                src="/rooms-icons/enter_room.svg"
+                src="/enter_room.svg"
                 alt="Arrow Down"
                 width={35}
                 height={35}
@@ -68,7 +68,7 @@ export default function KwateryParter() {
             </Link>
             <Link href="/kwatery-pracownicze/parter/kwatera-4">
               <Image
-                src="/rooms-icons/enter_room.svg"
+                src="/enter_room.svg"
                 alt="Arrow Down"
                 width={35}
                 height={35}
@@ -79,7 +79,7 @@ export default function KwateryParter() {
             </Link>
             <Link href="/kwatery-pracownicze/parter/kwatera-5">
               <Image
-                src="/rooms-icons/enter_room.svg"
+                src="/enter_room.svg"
                 alt="Arrow Down"
                 width={35}
                 height={35}
