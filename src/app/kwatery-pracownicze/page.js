@@ -5,7 +5,7 @@ import styles from './page.module.scss';
 
 export default function KwateryPracownicze() {
   return (
-    <main className={styles.main}>
+    <div className={styles.main}>
       <h1>Kwatery pracownicze</h1>
       <p>
         Nasze kwatery pracownicze są w pełni wyposażone. Każda kwatera posiada
@@ -58,6 +58,6 @@ export default function KwateryPracownicze() {
           <span>Kwatery piętro</span>
         </Link>
       </div>
-    </main>
+    </div>
   );
 }

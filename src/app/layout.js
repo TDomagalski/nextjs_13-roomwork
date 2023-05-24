@@ -28,8 +28,8 @@ export default function RootLayout({ children }) {
         <main>
           {children}
           <Contactrow />
-          <Footer />
         </main>
+        <Footer />
       </body>
     </html>
   );

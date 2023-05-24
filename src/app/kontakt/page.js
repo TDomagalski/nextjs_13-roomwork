@@ -5,7 +5,7 @@ import styles from './page.module.scss';
 
 export default function Kontakt() {
   return (
-    <main className={styles.main}>
+    <div className={styles.main}>
       <div className={styles.Contact_info}>
         <h1>Kontakt</h1>
         <p className={styles.info_company}>
@@ -44,6 +44,6 @@ export default function Kontakt() {
         <h2>Czekamy na wiadomość</h2>
         {/* <ContactForm /> */}
       </div>
-    </main>
+    </div>
   );
 }
