@@ -1,9 +1,88 @@
 import styles from '../kwatery-in.module.scss';
 
+import RoomPersonIcon from '../../../../../public/room_equipment/RoomPersonIcon';
+
+import RoomBedIcon from '../../../../../public/room_equipment/RoomBedIcon';
+import RoomChairIcon from '../../../../../public/room_equipment/RoomChairIcon';
+import RoomTableIcon from '../../../../../public/room_equipment/RoomTableIcon';
+import RoomElectricityPlugIcon from '../../../../../public/room_equipment/RoomElectricityPlugIcon';
+import RoomDimensions from '../../../../../public/room_equipment/RoomDimensions';
+import WiFiIcon from '../../../../../public/room_equipment/WiFiIcon';
+
+// import SlickCarousel from '../../../../components/SlickCarousel';
+// eslint-disable-next-line max-len
+// import kwateryStandard1 from '../../../../../public/kwatery/kwatery-standard/standard1/kwateraStandard1';
+
 export default function Kwatera5() {
   return (
-    <div className={styles.container}>
-      <h1>Kwatera numer 5</h1>
+    <div className={styles.main}>
+      <div className={styles.page_outlet}>
+        <h3>5 - Dwuosobowa kwatera na piętrze</h3>
+        <div className={styles.room_equipment}>
+          <div className={styles.room_equipment_boxs}>
+            <RoomPersonIcon />
+            <span>2</span>
+          </div>
+          <div className={styles.room_equipment_boxs}>
+            <RoomBedIcon />
+            <span>2</span>
+          </div>
+          <div className={styles.room_equipment_boxs}>
+            <RoomChairIcon />
+            <span>2</span>
+          </div>
+          <div className={styles.room_equipment_boxs}>
+            <RoomTableIcon />
+            <span>2</span>
+          </div>
+          <div className={styles.room_equipment_boxs}>
+            <RoomElectricityPlugIcon />
+            <span>4</span>
+          </div>
+          <div className={styles.room_equipment_boxs}>
+            <WiFiIcon />
+            <span>free</span>
+          </div>
+          <div className={styles.room_equipment_boxs}>
+            <RoomDimensions />
+            <span>~8m²</span>
+          </div>
+        </div>
+
+        <div className={styles.room_equipment_info}>
+          <h3>Informacja o pomieszczeniach</h3>
+          <div className={styles.room_equipment_boxs}>
+            <RoomPersonIcon />
+            <span>Dwuosobowa kwatera na piętrze</span>
+          </div>
+          <div className={styles.room_equipment_boxs}>
+            <RoomBedIcon />
+            <span>Dwa parterowe, drewniane łóżka</span>
+          </div>
+          <div className={styles.room_equipment_boxs}>
+            <RoomChairIcon />
+            <span>Odpowiednia ilość krzeseł</span>
+          </div>
+          <div className={styles.room_equipment_boxs}>
+            <RoomTableIcon />
+            <span>Dwa biurka</span>
+          </div>
+          <div className={styles.room_equipment_boxs}>
+            <RoomElectricityPlugIcon />
+            <span>Gniazdko elektryczne przy każdym łóżku</span>
+          </div>
+          <div className={styles.room_equipment_boxs}>
+            <WiFiIcon />
+            <span>Darmowe WiFi na całym obiekcie</span>
+          </div>
+          <div className={styles.room_equipment_boxs}>
+            <RoomDimensions />
+            <span>Komfortowe pomieszczenie</span>
+          </div>
+
+          {/* <SlickCarousel images={premium5Imgs} /> */}
+        </div>
+      </div>
     </div>
   );
 }
