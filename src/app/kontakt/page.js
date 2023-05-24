@@ -28,6 +28,7 @@ export default function Kontakt() {
           </div>
         </div>
         <div className={styles.page_Contact_form}>
+          <h2>Skontaktuj się z nami</h2>
           <h2>Czekamy na wiadomość</h2>
           {/* <ContactForm /> */}
         </div>

@@ -107,7 +107,7 @@
       &.page_Contact {
         display: flex;
         justify-content: space-between;
-        align-items: flex-start;
+        align-items: center;
 
         .Contact_info {
           flex-basis: 50%;
@@ -118,9 +118,10 @@
         }
 
         .page_Contact_form {
-          flex-basis: 40%;
+          flex-basis: 50%;
           h2 {
             font-size: 2rem;
+            margin: 2rem 0;
           }
         }
 
