@@ -74,3 +74,53 @@
     }
   }
 }
+
+@media (min-width: 920px) {
+  .main {
+    padding: 6rem 10rem;
+    font-size: 1.5rem;
+    .page_outlet {
+      h3 {
+        font-size: 1.8rem;
+      }
+
+      .room_equipment {
+        .room_equipment_boxs {
+          flex-basis: 10%;
+
+          svg {
+            width: 4rem;
+          }
+          span {
+            font-size: 1.5rem;
+          }
+        }
+      }
+
+      .room_equipment_info {
+        padding: 0 4rem;
+
+        h3 {
+          font-size: 1.5rem;
+        }
+
+        .room_equipment_boxs {
+          &:nth-of-type(even) {
+            align-self: flex-end;
+            flex-direction: row-reverse;
+
+            svg {
+              margin: 0 0 0 10px;
+            }
+          }
+          svg {
+            width: 2.5rem;
+          }
+          span {
+            font-size: 1.5rem;
+          }
+        }
+      }
+    }
+  }
+}
