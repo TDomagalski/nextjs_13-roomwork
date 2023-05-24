@@ -1,4 +1,76 @@
-.container {
-  background-color: black;
-  color: white;
+@import '../../variables';
+
+.main {
+  width: 100%;
+  background-color: $color-harbor-light;
+  text-align: justify;
+  padding: 4rem 2rem;
+
+  .page_outlet {
+    width: 100%;
+
+    h3 {
+      font-size: 1.4rem;
+      text-align: left;
+    }
+
+    .room_equipment {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: stretch;
+      flex-wrap: wrap;
+
+      .room_equipment_boxs {
+        flex-basis: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem 0;
+        border: 2px solid $color-border-dark;
+        padding: 1rem;
+        svg {
+          width: 30px;
+          height: auto;
+          margin-bottom: 10px;
+        }
+        span {
+          font-weight: 700;
+        }
+      }
+    }
+
+    .room_equipment_info {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      margin-top: 2rem;
+
+      h3 {
+        font-size: 1.2rem;
+        padding-top: 0;
+      }
+
+      .room_equipment_boxs {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 8px 0;
+
+        svg {
+          width: 2rem;
+          height: auto;
+          margin: 0 10px 0 0;
+        }
+
+        span {
+          font-size: 0.75rem;
+          font-weight: 700;
+          text-align: left;
+        }
+      }
+    }
+  }
 }
