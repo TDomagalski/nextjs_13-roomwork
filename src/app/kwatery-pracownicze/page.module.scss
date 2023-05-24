@@ -58,118 +58,31 @@
     padding: 6rem 10rem;
     font-size: 1.5rem;
 
-    &.page_offer {
-      // h1 {}
-      // p {}
+    .offer_nav {
+      justify-content: space-around;
 
-      .offer_nav {
-        justify-content: space-around;
-
-        .choose_room {
-          margin-bottom: 2rem;
-          svg {
-            width: 3rem;
-          }
-          h4 {
-            margin: 0 2rem;
-          }
+      .choose_room {
+        margin-bottom: 2rem;
+        svg {
+          width: 3rem;
         }
-
-        a {
-          flex-basis: auto;
-          display: flex;
-          flex-direction: column;
-          justify-content: flex-start;
-          align-items: center;
-
-          &.active {
-            box-shadow: inset 0px 0px 14px 6px rgba(66, 68, 90, 1);
-          }
-          svg {
-            width: 30%;
-          }
-          span {
-            font-size: 1.8rem;
-            font-weight: 700;
-          }
-        }
-      }
-      .page_outlet {
-        width: 75%;
-
-        h3 {
-          font-size: 2rem;
-        }
-
-        .offer_nav {
-          a {
-            padding: 1rem;
-            svg {
-              width: 50%;
-            }
-
-            span {
-              font-size: 1.5rem;
-
-              &.span-mobile {
-                display: none;
-              }
-
-              &.span-desktop {
-                display: block;
-              }
-            }
-          }
-        }
-
-        .page_outlet {
-          h3 {
-            font-size: 1.8rem;
-          }
-
-          .room_equipment {
-            .room_equipment-boxs {
-              flex-basis: 10%;
-
-              svg {
-                width: 4rem;
-              }
-              span {
-                font-size: 1.5rem;
-              }
-            }
-          }
-
-          .room_equipment-info {
-            padding: 0 4rem;
-
-            h3 {
-              font-size: 1.5rem;
-            }
-
-            .room_equipment-boxs {
-              &:nth-of-type(even) {
-                align-self: flex-end;
-                flex-direction: row-reverse;
-
-                svg {
-                  margin: 0 0 0 10px;
-                }
-              }
-              svg {
-                width: 2.5rem;
-              }
-              span {
-                font-size: 1.5rem;
-              }
-            }
-          }
+        h4 {
+          margin: 0 2rem;
         }
       }
 
-      .carousel {
-        height: 320px;
-        width: 50%;
+      a {
+        flex-basis: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 2rem;
+
+        span {
+          font-size: 1.8rem;
+          font-weight: 700;
+        }
       }
     }
   }
