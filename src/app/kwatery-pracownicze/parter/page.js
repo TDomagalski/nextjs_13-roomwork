@@ -33,7 +33,7 @@ export default function KwateryParter() {
           </div>
 
           <div className={styles.room_version}>
-            <Link href="/kwatery/kwatery-parter/pokoj1">
+            <Link href="/kwatery-pracownicze/parter/kwatera-1">
               <Image
                 src="/rooms-icons/enter_room.svg"
                 alt="Arrow Down"
@@ -44,7 +44,7 @@ export default function KwateryParter() {
               <span className={styles.span_mobile}>1</span>
               <span className={styles.span_desktop}>Pokój 1</span>
             </Link>
-            <Link href="/kwatery/kwatery-parter/pokoj2">
+            <Link href="/kwatery-pracownicze/parter/kwatera-2">
               <Image
                 src="/rooms-icons/enter_room.svg"
                 alt="Arrow Down"
@@ -55,7 +55,7 @@ export default function KwateryParter() {
               <span className={styles.span_mobile}>2</span>
               <span className={styles.span_desktop}>Pokój 2</span>
             </Link>
-            <Link href="/kwatery/kwatery-parter/pokoj3">
+            <Link href="/kwatery-pracownicze/parter/kwatera-3">
               <Image
                 src="/rooms-icons/enter_room.svg"
                 alt="Arrow Down"
@@ -66,7 +66,7 @@ export default function KwateryParter() {
               <span className={styles.span_mobile}>3</span>
               <span className={styles.span_desktop}>Pokój 3</span>
             </Link>
-            <Link href="/kwatery/kwatery-parter/pokoj4">
+            <Link href="/kwatery-pracownicze/parter/kwatera-4">
               <Image
                 src="/rooms-icons/enter_room.svg"
                 alt="Arrow Down"
@@ -77,7 +77,7 @@ export default function KwateryParter() {
               <span className={styles.span_mobile}>4</span>
               <span className={styles.span_desktop}>Pokój 4</span>
             </Link>
-            <Link href="/kwatery/kwatery-parter/pokoj5">
+            <Link href="/kwatery-pracownicze/parter/kwatera-5">
               <Image
                 src="/rooms-icons/enter_room.svg"
                 alt="Arrow Down"
