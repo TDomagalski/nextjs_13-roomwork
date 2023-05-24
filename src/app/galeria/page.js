@@ -1,6 +1,4 @@
-// import Gallery from 'react-photo-gallery';
 import styles from './page.module.scss';
-// import { galleryImgs } from './galleryImgs';
 
 export default function Galeria() {
   return (
@@ -16,7 +14,6 @@ export default function Galeria() {
         </p>
         <div className={styles.img_container}>
           <h2>Gallery</h2>
-          {/* <Gallery photos={galleryImgs} /> */}
         </div>
       </div>
     </main>

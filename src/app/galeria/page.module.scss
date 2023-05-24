@@ -5,20 +5,11 @@
   background-color: $color-harbor-light;
   text-align: justify;
   padding: 4rem 2rem;
-
-  // .page_gallery {}
 }
 
 @media (min-width: 920px) {
   .main {
     padding: 6rem 10rem;
     font-size: 1.5rem;
-
-    .page_gallery {
-      .img_container {
-        width: 75%;
-        margin: auto;
-      }
-    }
   }
 }

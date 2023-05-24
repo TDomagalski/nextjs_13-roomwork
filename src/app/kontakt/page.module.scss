@@ -9,7 +9,7 @@
     justify-content: center;
     align-items: center;
     margin: 10px 0;
-    svg {
+    img {
       width: 2rem;
       margin-right: 10px;
     }
@@ -25,71 +25,70 @@
   text-align: justify;
   padding: 4rem 2rem;
 
-  .page_Contact {
-    .Contact_info {
-      margin-bottom: 3rem;
+  .Contact_info {
+    margin-bottom: 3rem;
 
-      p {
-        margin: 0;
-        margin-top: 5px;
-        &.info_company,
-        &.info_nip,
-        &.info_regon {
-          font-weight: 700;
-        }
-      }
-
-      a {
-        display: inline-block;
-        margin: 2rem 0;
-      }
-
-      .info_company {
-        letter-spacing: 0;
-      }
-
-      .page_link_phoneEmail {
-        margin: 0;
-
-        .phone,
-        .email {
-          justify-content: flex-start;
-        }
+    p {
+      margin: 0;
+      margin-top: 5px;
+      &.info_company,
+      &.info_nip,
+      &.info_regon {
+        font-weight: 700;
       }
     }
 
-    .page_Contact_form {
-      h2 {
-        text-align: center;
+    a {
+      display: inline-block;
+      margin: 2rem 0;
+    }
+
+    .info_company {
+      letter-spacing: 0;
+    }
+
+    .page_link_phoneEmail {
+      margin: 0;
+
+      .phone,
+      .email {
+        justify-content: flex-start;
       }
-      form {
-        width: 100%;
-        &.form_contact {
-          label {
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-            align-items: stretch;
-            font-weight: 700;
-            margin-bottom: 1rem;
+    }
+  }
 
-            input,
-            textarea {
-              padding: 10px;
-            }
+  .page_Contact_form {
+    flex-basis: 50%;
+    h2 {
+      text-align: center;
+    }
+    form {
+      width: 100%;
+      &.form_contact {
+        label {
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: stretch;
+          font-weight: 700;
+          margin-bottom: 1rem;
 
-            textarea {
-              height: 200px;
-            }
+          input,
+          textarea {
+            padding: 10px;
+          }
+
+          textarea {
+            height: 200px;
           }
         }
-        input {
-          &.form_field_btn {
-            cursor: pointer;
-            background-color: $color-bg-green;
-            @include btn_small-long;
-            border: 1px solid $color-border-dark;
-          }
+      }
+      input {
+        &.form_field_btn {
+          cursor: pointer;
+          background-color: $color-bg-green;
+          @include btn_small-long;
+          border: 1px solid $color-border-dark;
         }
       }
     }
@@ -98,48 +97,47 @@
 
 @media (min-width: 920px) {
   .main {
-    .page_Contact {
-      padding: 6rem 10rem;
-      font-size: 1.5rem;
+    padding: 6rem 10rem;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
-      // &.container {}
+    &.page_Contact {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
 
-      &.page_Contact {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+      .Contact_info {
+        flex-basis: 50%;
 
-        .Contact_info {
-          flex-basis: 50%;
-
-          .info_company {
-            letter-spacing: 1px;
-          }
+        .info_company {
+          letter-spacing: 1px;
         }
+      }
 
-        .page_Contact_form {
-          flex-basis: 50%;
-          h2 {
-            font-size: 2rem;
-            margin: 2rem 0;
-          }
+      .page_Contact_form {
+        flex-basis: 50%;
+        h2 {
+          font-size: 2rem;
+          margin: 2rem 0;
         }
+      }
 
-        .page_Contact_form {
-          form {
-            // &.form_contact {
-            //   label {
-            //     input {}
-            //     textarea {}
-            //   }
-            // }
-            input {
-              &.form_field_btn {
-                cursor: pointer;
-                background-color: $color-bg-green;
-                @include btn_small-long;
-                border: 1px solid $color-border-dark;
-              }
+      .page_Contact_form {
+        form {
+          // &.form_contact {
+          //   label {
+          //     input {}
+          //     textarea {}
+          //   }
+          // }
+          input {
+            &.form_field_btn {
+              cursor: pointer;
+              background-color: $color-bg-green;
+              @include btn_small-long;
+              border: 1px solid $color-border-dark;
             }
           }
         }
