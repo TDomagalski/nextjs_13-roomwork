@@ -98,7 +98,8 @@
       }
 
       .room_equipment_info {
-        padding: 0 4rem;
+        width: 60%;
+        margin: auto;
 
         h3 {
           font-size: 1.5rem;
@@ -109,11 +110,11 @@
             align-self: flex-end;
             flex-direction: row-reverse;
 
-            svg {
+            img {
               margin: 0 0 0 10px;
             }
           }
-          svg {
+          img {
             width: 2.5rem;
           }
           span {

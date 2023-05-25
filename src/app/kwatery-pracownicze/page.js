@@ -24,16 +24,16 @@ export default function KwateryPracownicze() {
           <Image
             src="/arrow-down_icon.svg"
             alt="Arrow down VV"
-            width={35}
-            height={35}
+            width={50}
+            height={50}
             priority
           />
           <h4>Wybierz piętro</h4>
           <Image
             src="/arrow-down_icon.svg"
             alt="Arrow down VV"
-            width={35}
-            height={35}
+            width={50}
+            height={50}
             priority
           />
         </div>
