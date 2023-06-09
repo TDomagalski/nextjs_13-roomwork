@@ -8,6 +8,9 @@ const nextConfig = {
     unoptimized: true,
   },
 
+  // this option solve issue with refresh pages
+  trailingSlash: true,
+
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
   },
