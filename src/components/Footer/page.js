@@ -13,9 +13,7 @@ export default function Footer() {
           </div>
 
           <div className={styles.Contact_info}>
-            <p className={styles.info_company}>
-              Family Party non-profit Sp. z o.o.
-            </p>
+            <p className={styles.info_company}>Family Party Sp. z o.o.</p>
             <p className={styles.info_adress}>ul. Krakowska 62d</p>
             <p className={styles.info_city}>32-090 Słomniki</p>
             <p className={styles.info_nip}>NIP: 682-177-77-38</p>
@@ -67,10 +65,7 @@ export default function Footer() {
       </div>
 
       <div className={styles.footer_desine}>
-        <span>
-          Tworzenie aplikacji webowych
-          <a href="/">Family Party non-profit Sp. z o.o.</a>
-        </span>
+        <span>Tworzenie aplikacji webowych Family Party Sp. z o.o.</span>
       </div>
     </footer>
   );

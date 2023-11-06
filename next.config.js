@@ -3,6 +3,7 @@
 const path = require('path');
 
 const nextConfig = {
+  // STATIC WEB OPTIONS
   output: 'export',
   images: {
     unoptimized: true,

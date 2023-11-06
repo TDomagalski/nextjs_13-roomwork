@@ -8,9 +8,7 @@ export default function Kontakt() {
     <div className={styles.main}>
       <div className={styles.Contact_info}>
         <h1>Kontakt</h1>
-        <p className={styles.info_company}>
-          Family Party non-profit Sp. z o.o.
-        </p>
+        <p className={styles.info_company}>Family Party Sp. z o.o.</p>
         <p className={styles.info_adress}>ul. Krakowska 62D</p>
         <p className={styles.info_adress}>32-090 Słomniki</p>
         <p className={styles.info_nip}>NIP: 682-177-77-38</p>
